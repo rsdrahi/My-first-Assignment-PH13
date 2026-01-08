@@ -78,6 +78,11 @@ body{
   border: none;
   border-radius: 1000px;
 }
+.banner_button_top:hover{
+  cursor: pointer;
+  background-color: #596275;
+  color: white;
+}
 .banner_text h1{
   font-size: 72px;
   font-weight: bold;
@@ -93,4 +98,33 @@ body{
   line-height: 24px;
   color: #FFFFFF;
   margin-bottom: 32px;
+}
+.banner_text .banner_left_button{
+  background-color: #469165;
+  padding: 16px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 500px;
+  color: #FFFFFF;
+  margin-right: 16px;
+}
+.banner_left_button:hover{
+  background-color: black;
+  cursor: pointer;
+}
+.banner_text .banner_right_button{
+  border: none;
+  padding: 16px 15px;
+  border-radius: 4px;
+  background-color: transparent;
+  border: 1px solid white;
+  color: #FFFFFF;
+  font-size: 16px;
+  font-weight: 500px;
+}
+.banner_right_button:hover{
+  background-color:#227093;
+  cursor: pointer;
+  color: #000000;
 }

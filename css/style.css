@@ -128,3 +128,55 @@ body{
   cursor: pointer;
   color: #000000;
 }
+
+/* Notes */
+
+.notes{
+  padding-top: 38px;
+}
+.notes .notes_container{
+  width: 93%;
+  max-width: 1360px;
+  margin: 0 auto;
+}
+.notes_container .notes_header{
+  text-align: center;
+}
+.notes_container .notes_header h2{
+  font-size: 48px;
+  font-weight: bold;
+  color: #001931;
+  margin-bottom: 16px;
+}
+.notes_container .notes_header p{
+  font-size: 16px;
+  line-height: 20px;
+  color: #627382;
+  margin-bottom: 44px;
+}
+.notes .notes_container .notes_box{
+  display: flex;
+  gap: 24px;
+}
+.notes_box .cards{
+  padding: 70px 24px;
+  /* border: 1px solid red; */
+  box-shadow: 0 6px 10px 0 #00000019;
+  max-width: 322px;
+  text-align: center;
+}
+.cards img{
+  width: 60px;
+}
+.cards h4{
+  font-size: 24px;
+  font-weight: 500px;
+  color: #001931;
+  margin-top: 16px;
+}
+.cards p{
+  font-size: 16px;
+  line-height: 20px;
+  color: #627382;
+  margin-top: 16px;
+}

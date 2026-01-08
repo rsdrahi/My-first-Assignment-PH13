@@ -180,3 +180,52 @@ body{
   color: #627382;
   margin-top: 16px;
 }
+
+/* Brain Section */
+
+.brain_section{
+  padding: 120px;
+}
+.brain_section .brain_container{
+  width: 93%;
+  max-width: 1360px;
+  margin: 0 auto;
+  border: 1px solid red;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 60px;
+}
+.brain_container .brain_image{
+  width: 600px;
+}
+.brain_container .brain_text{
+  width: 700px;
+  text-align: left;
+}
+.brain_container .brain_text span{
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 500px;
+  color: #469165;
+  /* margin-bottom: 16px; */
+}
+.brain_container .brain_text h2{
+  font-size: 48px;
+  font-weight: bold;
+  color: #001931;
+  margin-bottom: 16px;
+}
+.brain_container .brain_text p{
+   font-size: 16px;
+  line-height: 20px;
+  color: #627382;
+  margin-bottom: 40px;
+}
+.brain_container .brain_text .brain_checkmark{
+  list-style: none;
+}
+.brain_container .brain_text .brain_checkmark img{
+  width: 20px;
+  margin-top: 16px;
+}

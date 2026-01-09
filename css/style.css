@@ -6,9 +6,14 @@
 body{
   width: 1501px;
 }
-.all_fonts .inter{
+ 
+/* .all_fonts .inter{
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
+} */
+
+.all_fonts{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 /* Header */
 
